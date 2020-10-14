@@ -1,0 +1,61 @@
+body
+{
+   padding: 0px;
+   margin: 0px;
+   background-color: rgb(192, 164, 219);
+}
+.Box1
+{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 3fr 1fr 2fr ;
+    grid-gap: 10px;   
+}
+.Box1 > div
+{
+    border: black 1px solid;
+}
+.one
+{
+    background-color: cornflowerblue;
+}
+.two
+{
+    background-color: red;
+}
+.three
+{
+    background-color:rebeccapurple;
+}
+.fourth
+{
+    background-color:blue;
+}
+.five
+{
+    background-color: black;
+}
+.six
+{
+    background-color: white;
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.seven
+{
+    background-color: green;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.eight
+{
+    background-color: yellow;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+.nine
+{
+    background-color: plum;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
